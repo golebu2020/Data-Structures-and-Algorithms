@@ -3,6 +3,7 @@ package com.prepare.secondstructure.graph2;
 import java.util.*;
 
 public class HasPathUndirected {
+   
     /*
     Write a function, undirectedPath, that takes in an array of edges for an undirected graph
     and two nodes (nodeA, nodeB). The function should return a boolean indicating whethere or not
@@ -18,6 +19,9 @@ public class HasPathUndirected {
 
     undirectedPath (edges, 'j','m'); //t --> true
      */
+    /*
+    This was implemented using an Queue/BreadthFirst Approach
+    */
 
     public static void main(String[] args){
         HashMap<Character, ArrayList<Character>> graph = new HashMap<>();
