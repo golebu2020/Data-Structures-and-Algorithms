@@ -20,7 +20,7 @@ public class HasPathUndirected {
     undirectedPath (edges, 'j','m'); //t --> true
      */
     /*
-    This was implemented using an Queue/BreadthFirst Approach
+    This was implemented using a BreadthFirst Approach
     */
 
     public static void main(String[] args){
